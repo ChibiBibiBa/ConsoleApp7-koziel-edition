@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CalculatorAddition.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorMultiplication.cs" />
     <Compile Include="CalculatorSubtraction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

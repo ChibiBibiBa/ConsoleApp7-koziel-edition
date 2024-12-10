@@ -13,6 +13,7 @@ namespace ConsoleApp7
             var c = new Calculator();
 
             Console.WriteLine(c.Add(1,2));
+            Console.WriteLine(c.Mult(2, 4));
         }
     }
 }

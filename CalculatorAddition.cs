@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
-    internal class Program
+    public partial class Calculator
     {
-        static void Main(string[] args)
+        public int Add(int a, int b)
         {
-            var c = new Calculator();
-
-            Console.WriteLine(c.Add(1,2));
+            return a + b;
         }
     }
 }

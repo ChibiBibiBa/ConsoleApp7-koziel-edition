@@ -10,6 +10,9 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
+            var c = new Calculator();
+
+            Console.WriteLine(c.Add(1,2));
         }
     }
 }
